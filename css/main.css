@@ -193,23 +193,6 @@ body {
   color: var(--accent-color);
 }
 
-.tel-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.portfolio-nav {
-  display: flex;
-  align-items: center;
-}
-
-.portfolio-auth {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  gap: 50px;
-}
-
 .decision {
   background-color: var(--color-decision);
   max-width: 1600px;
@@ -389,7 +372,7 @@ img {
   padding-bottom: 94px;
 }
 
-.team {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -398,13 +381,13 @@ img {
   margin-bottom: 50px;
 }
 
-.team-board {
+.team__board {
   display: flex;
   gap: 30px;
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.team-line {
+.team__line {
   color: var(--title-info-kolor);
   font-size: 16px;
   line-height: 1.18;
@@ -412,18 +395,18 @@ img {
   letter-spacing: 0.03em;
 }
 
-.team-list {
+.team__item-list {
   background-color: var(--primari-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-font {
+.team__font {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-title {
+.team__item-title {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -431,7 +414,7 @@ img {
   margin-bottom: 10px;
 }
 
-.team-boss {
+.team__boss {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -439,7 +422,7 @@ img {
   margin-top: 16px;
 }
 
-.team-item {
+.team__item {
   height: 44px;
   width: 44px;
   border-radius: 50%;
@@ -450,12 +433,12 @@ img {
   color: var(--color-icon-insta);
   transition: color 250ms var(--taming-fix), background-color 250ms var(--taming-fix);
 }
-.team-item:hover, .team-item:focus {
+.team__item:hover, .team__item:focus {
   background-color: var(--accent-color);
   color: var(--primari-text-color);
 }
 
-.icon-insta {
+.team__icon {
   fill: currentColor;
 }
 
@@ -533,6 +516,15 @@ img {
 }
 .footer-tel:hover, .footer-tel:focus {
   color: var(--accent-color);
+}
+
+.logo-blue {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .footer-adress {
