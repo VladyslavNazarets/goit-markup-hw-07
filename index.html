@@ -8,28 +8,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
 </head>
 <body >
    <header class="page-header">
     <div class="container flex">
-    <nav class="header-nav">
-    <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
-    <ul class="site-nav">
-        <li><a href="./index.html" class="link active ">Студія</a></li>
-        <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-        <li><a href="#" class="link" >Контакти</a></li>
+    <nav class="navigation">
+    <a href="./index.html" class="logo navigation__logo"><span class="logo__blue">Web</span>Studio</a>
+    <ul class="menu list">
+        <li><a href="./index.html" class="menu__link active ">Студія</a></li>
+        <li><a href="./portfolio.html" class="menu__link">Портфоліо</a></li>
+        <li><a href="#" class="menu__link" >Контакти</a></li>
     </ul>
     </nav>
-    <ul class="header-auth">
-        <li><a href="mailto:info@devstudio.com" class="auth-nav"> 
-            <svg class="auth-icon" width="16" height="12">
+    <ul class="connect">
+        <li><a href="mailto:info@devstudio.com" class="connect__nav"> 
+            <svg class="connect__icon" width="16" height="12">
             <use href="./images/symbol-defs.svg#icon-mailhover">
             </use>
         </svg>
         info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="tel">
-            <svg class="tel-icon" width="10" height="16">
+        <li><a href="tel:+380961111111" class="connect__tel">
+            <svg class="connect__icon"  width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-tell-11">
                 </use>
             </svg> +38 096 111 11 11</a></li>
@@ -37,10 +38,10 @@
    </div>
    </header>
    <main> 
-    <section class="decision">  
+    <section class="decision check">  
         <div class="container">
-        <h1 class="decision-title">Ефективні рішення для вашого бізнесу </h1>
-        <button type="button" data-modal-open class="button-ok" >Замовити послугу</button>
+        <h1 class="decision__title">Ефективні рішення для вашого бізнесу </h1>
+        <button type="button" data-modal-open class="decision__button btnd">Замовити послугу</button>
     </div>
     </section>
     <section class="sections">
